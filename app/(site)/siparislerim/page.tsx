@@ -1,7 +1,5 @@
 import { Metadata } from "next";
-import UserPosts from "./_components/UserOrders";
 import GoBackButton from "./_components/GoBackButton";
-import UserOrders from "./_components/UserOrders";
 import { Suspense } from "react";
 import MiniLoaderSpinner from "@/components/MiniLoadingSpinner";
 
@@ -23,7 +21,6 @@ const OrdersPage = async () => {
           <h1 className="my-8 flex text-3xl font-semibold text-black lg:col-span-4 dark:text-white">
             Tüm Siparişlerim
           </h1>
-          <UserOrders />
         </div>
       </section>
     </>

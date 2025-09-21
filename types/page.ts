@@ -1,4 +1,5 @@
 interface Page<T> {
+  length: number;
   content: T[];
   totalElements: number;
   totalPages: number;
